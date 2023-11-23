@@ -14,5 +14,7 @@ int main() {
 
     frase += " " + nuevaFrase;
 
-    
+    std:: cout << "La frase actualizada es: " << frase << endl;
+
+    return 0;
 }
