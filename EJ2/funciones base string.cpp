@@ -13,7 +13,7 @@ int main() {
 
     if (posicion != std::string::npos) {
         std::cout << "La palabra '" << palabraBuscada << "' se encuentra en la posición: " << posicion << std::endl;
-        
+
         std::string subcadena = sentence.substr(posicion, palabraBuscada.size() + 5); // Se añaden 5 caracteres adicionales
         std::cout << "Subcadena después de la palabra encontrada: " << subcadena << std::endl;
     } else {
