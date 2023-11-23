@@ -15,7 +15,7 @@ int main() {
     std::cout << "Cadena resultante: " << str3 << std::endl;
 
     std::cout << "Longitud de la cadena resultante: " << str3.length() << std::endl;
-    
+
     size_t longitudSubcadena = 5;
     std::string subcadena = str3.substr(0, longitudSubcadena);
     std::cout << "Subcadena de longitud " << longitudSubcadena << ": " << subcadena << std::endl;
