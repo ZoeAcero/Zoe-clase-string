@@ -1,20 +1,23 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
 int main() {
-    string:: frase = "Hola, este es un ejemplo de C++ con la clase string";
+    long sentence;
 
-    cout << "La frase es: " << frase << endl;
+    string:: sentence = "Hola, este es un ejemplo de C++ con la clase string";
+
+    cout << "La frase es: " << sentence << endl;
 
     cout << "Ingresa una nueva frase: ";
     std::string nuevaFrase;
     std::getline(std::cin, nuevaFrase);
 
-    frase += " " + nuevaFrase;
+    sentence += " " + nuevaFrase;
 
-    std:: cout << "La frase actualizada es: " << frase << endl;
+    std:: cout << "La frase actualizada es: " << sentence << endl;
 
     return 0;
 }
