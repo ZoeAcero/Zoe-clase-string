@@ -29,7 +29,7 @@ int main() {
             pos = new_sentence.find(sub_str_to_find, pos + sub_str_to_replace.length());
         }
 
-        
+
         std::cout << "Cadena resultante: " << new_sentence << std::endl;
     } else {
         std::cout << "Subcadena no encontrada." << std::endl;
